@@ -1,0 +1,19 @@
+// For format details, see https://aka.ms/devcontainer.json
+{
+	"build": { "dockerfile": "Dockerfile" },
+
+	// Configure tool-specific properties.
+	"customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "bash",
+                "terminal.integrated.profiles.linux": { "bash": { "path": "/usr/bin/bash" } },
+				"isabelle.home": "/home/isabelle/Isabelle"
+			},
+			"extensions": [
+				"makarius.Isabelle2021-1"
+			]
+        }
+    }
+
+}
