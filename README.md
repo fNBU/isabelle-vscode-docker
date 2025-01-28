@@ -10,7 +10,7 @@ This is an example repository for using VSCode with Isabelle2024.
 The dockerfile that I used as a basis is the suggested one `makarius/isabelle`. 
 Changes from `makarius/isabelle`:
 
-- use `debian:latest` instead of Ubuntu container because Ubunto is getting enshittified
+- use `debian:latest` instead of Ubuntu container because Ubuntu is getting enshittified
 - install cli programs to make VSCode devcontainers work nicely
 - download the official linux isabelle2024 distribution rather than finding it locally
 - make sure `isabelle` is on user's `PATH`
