@@ -2,6 +2,13 @@
 
 This is an example repository for using VSCode with Isabelle2024.
 
+## Targets
+
+Verified to work on
+
+- macOS 13.7.2 x86_64
+- Debian GNU/Linux trixie/sid x86_64
+
 ## Dependencies:
 
 - VSCode with `ms-vscode-remote.remote-containers`
